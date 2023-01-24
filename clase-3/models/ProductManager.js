@@ -4,13 +4,18 @@ export class ProductManager {
     }
 
     addProduct(product) {
-        if (!this.checkCode(product)) {
-            if (!product.id) {
-                product.id = this.products.length + 1
+        try {
+            if (!this.checkCode(product)) {
+                if (!product.id) {
+                    product.id = this.products.length + 1
+                }
+                this.products.push(product)
+                return product
+            } else {
+                throw error
             }
-            this.products.push(product)
-            return product
-        } else {
+
+        } catch (error) {
             return console.error("ya hay un product con ese CODE")
         }
 
@@ -20,12 +25,17 @@ export class ProductManager {
         return this.products
     }
     getProductsById(id) {
-        const array = this.getProducts()
-        const res = array.find(obj => obj.id === id)
-        if (res) {
-            console.log(res)
-            return res
-        } else {
+        try {
+            const array = this.getProducts()
+            const res = array.find(obj => obj.id === id)
+            if (res) {
+                console.log(res)
+                return res
+            } else {
+                throw error
+            }
+
+        } catch (error) {
             return console.log("Not Found")
         }
     }
@@ -35,9 +45,9 @@ export class ProductManager {
             let check = array.find(obj => obj.code == product.code)
             if (!check) {
                 return false
-            } else {
-                return true
             }
+            return true
+
 
         } catch (error) {
             console.error(error)
