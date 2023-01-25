@@ -57,7 +57,6 @@ export class ProductManager {
             const array = await this.getProducts()
             const obj = await this.getProductsById(id)
             obj[campo] = newData
-            console.log(obj)
             let index = array.findIndex(prod => prod.id == obj.id)
             array[index] = obj
             await fs.writeFile(this.ruta, JSON.stringify(array, null, 2))
@@ -89,6 +88,8 @@ export class ProductManager {
             throw new Error(error)
         }
     }
+
+    // CHECKEO SI EL CODE YA EXISTE
     async checkCode(array, product) {
         try {
             let check = array.find(obj => obj.code == product.code)
