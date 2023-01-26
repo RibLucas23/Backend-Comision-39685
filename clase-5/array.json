@@ -1,23 +1,5 @@
 [
   {
-    "title": "Mesa",
-    "description": "Mesa grande",
-    "price": 4444,
-    "thumbnail": "thumbnail",
-    "code": "ccc",
-    "id": 1,
-    "stock": 100
-  },
-  {
-    "title": "teclado",
-    "description": "teclado grande",
-    "price": 8888,
-    "thumbnail": "thumbnail",
-    "code": "bbb",
-    "id": 2,
-    "stock": 1000
-  },
-  {
     "title": "Mousse",
     "description": "Mousse grande",
     "price": 3333,
@@ -34,5 +16,23 @@
     "code": "aaaeee",
     "stock": 800,
     "id": 4
+  },
+  {
+    "title": "teclado",
+    "description": "teclado grande",
+    "price": 8888,
+    "thumbnail": "thumbnail",
+    "code": "bbb",
+    "stock": 1000,
+    "id": 5
+  },
+  {
+    "title": "Mesa",
+    "description": "Mesa grande",
+    "price": 4444,
+    "thumbnail": "thumbnail",
+    "code": "ccc",
+    "stock": 100,
+    "id": 6
   }
 ]

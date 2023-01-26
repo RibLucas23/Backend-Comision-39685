@@ -22,7 +22,7 @@ export class ProductManager {
             const array = await this.getProducts()
             if (!await this.checkCode(array, obj)) {
 
-                let newId = array.length + 1
+                let newId = array[array.length - 1].id + 1
                 const newObj = { ...obj, id: newId }
                 array.push(newObj)
                 let newArray = await fs.writeFile(this.ruta, JSON.stringify(array, null, 2))

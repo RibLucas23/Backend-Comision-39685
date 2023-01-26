@@ -32,8 +32,11 @@ const Mousse2 = {
     stock: 800
 }
 const productsArray = new ProductManager('./array.json')
-await productsArray.addProduct(Mousse2)
+// await productsArray.addProduct(teclado)
+// await productsArray.addProduct(mesa)
+
 console.log(await productsArray.getProducts())
-// await productsArray.remove(8)
+// await productsArray.remove(1)
+// await productsArray.remove(2)
 await productsArray.updateProduct(4, "price", 99999)
 // console.log(await productsArray.getProductsById(2))
