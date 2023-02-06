@@ -1,0 +1,20 @@
+[
+  {
+    "title": "teclado",
+    "description": "teclado grande",
+    "price": 8888,
+    "thumbnail": "thumbnail",
+    "code": "bbb",
+    "stock": 1000,
+    "id": 1
+  },
+  {
+    "title": "Mesa",
+    "description": "Mesa grande",
+    "price": 4444,
+    "thumbnail": "thumbnail",
+    "code": "ccc",
+    "stock": 100,
+    "id": 2
+  }
+]
