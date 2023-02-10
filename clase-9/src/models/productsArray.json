@@ -1,0 +1,92 @@
+[
+  {
+    "title": "teclado",
+    "description": "teclado grande",
+    "price": 8888,
+    "thumbnail": "thumbnail",
+    "code": "bbb",
+    "stock": 1000,
+    "id": 1
+  },
+  {
+    "title": "Mesa",
+    "description": "Mesa grande",
+    "price": 4444,
+    "thumbnail": "thumbnail",
+    "code": "ccc",
+    "stock": 100,
+    "id": 2
+  },
+  {
+    "title": "silla gamer",
+    "description": "silla gamer ",
+    "price": "44444",
+    "thumbnail": "thumbnail",
+    "code": "ttttt",
+    "stock": "2324",
+    "id": 3
+  },
+  {
+    "title": "pad",
+    "description": "pad",
+    "price": "654",
+    "thumbnail": "thumbnail",
+    "code": "yyyyyyyyyy",
+    "stock": "23",
+    "id": 4
+  },
+  {
+    "title": "led rgb",
+    "description": "tira led rgb",
+    "price": "2500",
+    "thumbnail": "thumbnail",
+    "code": "rgbrgb",
+    "stock": "200",
+    "id": 5
+  },
+  {
+    "title": "monitor",
+    "description": "monitor",
+    "price": "25000",
+    "thumbnail": "thumbnail",
+    "code": "hhhhh",
+    "stock": "20",
+    "id": 6
+  },
+  {
+    "title": "parlante",
+    "description": "parlante bluetooh",
+    "price": "8000",
+    "thumbnail": "thumbnail",
+    "code": "ppppp",
+    "stock": "202",
+    "id": 7
+  },
+  {
+    "title": "gabinete",
+    "description": "gabinete pc",
+    "price": "15000",
+    "thumbnail": "thumbnail",
+    "code": "ppffd",
+    "stock": "2022",
+    "id": 8
+  },
+  {
+    "title": "cargador ",
+    "description": "cargador externo",
+    "price": "1200",
+    "thumbnail": "thumbnail",
+    "code": "llllll",
+    "stock": "20222",
+    "id": 9
+  },
+  {
+    "title": "termo gamer",
+    "description": "termo con luces rgb",
+    "price": "120222",
+    "thumbnail": "thumbnail",
+    "code": "pasdsad",
+    "stock": "999999",
+    "id": 10
+  }
+]
