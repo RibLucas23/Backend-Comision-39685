@@ -6,25 +6,25 @@ const cartManager = new CartManager('./src/models/cartArray.json')
 
 routerCart.get('/', async (req, res) => {
     let productos = await cartManager.getCart()
-    res.send(productos)
+    res.status(200).send(productos)
 })
 routerCart.get('/:cId', async (req, res) => {
     let cId = parseInt(req.params.cId)
     let cart = await cartManager.getCartById(cId)
-    res.send(cart)
+    res.status(200).send(cart)
 })
 routerCart.post('/', async (req, res) => {
     let newCart = await cartManager.createCart()
-    res.send(newCart)
+    res.status(200).send(newCart)
 })
 routerCart.post('/:cId', async (req, res) => {
     let newCart = await cartManager.addProduct(req.params.cId, req.body)
-    res.send(newCart)
+    res.status(200).send(newCart)
 })
 
 routerCart.post('/:cId/product/:id', async (req, res) => {
     let newCart = await cartManager.addProduct2(req.params.cId, req.params.id)
-    res.send(newCart)
+    res.status(200).send(newCart)
 })
 
 
