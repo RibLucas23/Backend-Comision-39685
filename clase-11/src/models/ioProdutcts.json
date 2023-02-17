@@ -1,0 +1,100 @@
+[
+  {
+    "title": "teclado",
+    "description": "teclado grande",
+    "price": 8888,
+    "thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Farticulo.mercadolibre.com.ar%2FMLA-868325628-teclado-logitech-usb-k120-pc-mac-linux-ps4-negro-espanol-n-_JM&psig=AOvVaw3k5XTc1N6z8-hM99_m3ur2&ust=1676658225460000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJi7zOHUmv0CFQAAAAAdAAAAABAE",
+    "code": "bbb",
+    "stock": 1000,
+    "id": 1
+  },
+  {
+    "title": "Mesa",
+    "description": "Mesa grande",
+    "price": 4444,
+    "thumbnail": "https://www.espacity.com/w/wp-content/uploads/01476001000020_1-768x624.jpg",
+    "code": "ccc",
+    "stock": 100,
+    "id": 2
+  },
+  {
+    "title": "silla gamer",
+    "description": "silla gamer ",
+    "price": "44444",
+    "thumbnail": "https://mauricomputacion.com.ar/images/productos/500x500/24145.webp",
+    "code": "ttttt",
+    "stock": "2324",
+    "id": 3
+  },
+  {
+    "title": "pad",
+    "description": "pad",
+    "price": "654",
+    "thumbnail": "https://logitechar.vtexassets.com/arquivos/ids/158378/956-000035.png?v=637770880645600000",
+    "code": "yyyyyyyyyy",
+    "stock": "23",
+    "id": 4
+  },
+  {
+    "title": "led rgb",
+    "description": "tira led rgb",
+    "price": "2500",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_809255-MLA49619903690_042022-O.webp",
+    "code": "rgbrgb",
+    "stock": "200",
+    "id": 5
+  },
+  {
+    "title": "monitor",
+    "description": "monitor",
+    "price": "25000",
+    "thumbnail": "https://images.philips.com/is/image/PhilipsConsumer/271E1SCA_55-IMS-es_AR?$jpglarge$&wid=960",
+    "code": "hhhhh",
+    "stock": "20",
+    "id": 6
+  },
+  {
+    "title": "parlante",
+    "description": "parlante bluetooh",
+    "price": "8000",
+    "thumbnail": "https://static.cotodigital3.com.ar/sitios/fotos/full/00501400/00501422.jpg?3.0.150n",
+    "code": "ppppp",
+    "stock": "202",
+    "id": 7
+  },
+  {
+    "title": "gabinete",
+    "description": "gabinete pc",
+    "price": "15000",
+    "thumbnail": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/EN48397_800.jpg",
+    "code": "ppffd",
+    "stock": "2022",
+    "id": 8
+  },
+  {
+    "title": "cargador ",
+    "description": "cargador externo",
+    "price": "1200",
+    "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/ar/ep-ta220nbegar/gallery/ar-35w-power-adapter-ep-ta-220-ep-ta220nbegar-530620203?$650_519_PNG$",
+    "code": "llllll",
+    "stock": "20222",
+    "id": 9
+  },
+  {
+    "title": "termo gamer",
+    "description": "termo con luces rgb",
+    "price": "120222",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_867394-MCO48506369540_122021-O.webp",
+    "code": "pasdsad",
+    "stock": "999999",
+    "id": 10
+  },
+  {
+    "title": "prueba 2",
+    "price": "2323",
+    "code": "asddasdas",
+    "thumbnail": "asd",
+    "id": 11,
+    "status": true
+  }
+]
