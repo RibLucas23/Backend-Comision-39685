@@ -7,7 +7,7 @@ socket.on('from-server-productos', async (data) => {
 });
 
 function renderProducts(productos) {
-    console.log(productos)
+    // console.log(productos)
     const cuerpoProductosHTML = productos.map((producto) => {
         return `<tr>
                     <td >${producto.title}: </td>
@@ -38,6 +38,8 @@ function addProduct() {
         description: description.value
 
     }
+    console.log("producto:")
+
     console.log(producto)
     socket.emit('from-client-producto', producto);
 }

@@ -90,11 +90,23 @@
     "id": 10
   },
   {
+    "title": "prueba 1",
+    "price": "123",
+    "code": "23232123232323231321",
+    "thumbnail": "123",
+    "stock": "123",
+    "description": "asddasdsa",
+    "id": 11,
+    "status": true
+  },
+  {
     "title": "prueba 2",
     "price": "123",
-    "code": "asdadsasddasdasdsadsadasdas",
-    "thumbnail": "",
-    "id": 11,
+    "code": "23232123232323231321asd",
+    "thumbnail": "123",
+    "stock": "123",
+    "description": "asddasdsa",
+    "id": 12,
     "status": true
   }
 ]
