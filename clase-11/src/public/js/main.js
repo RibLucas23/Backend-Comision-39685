@@ -26,11 +26,16 @@ function addProduct() {
     const price = document.querySelector('#price');
     const code = document.querySelector('#code');
     const thumbnail = document.querySelector('#thumbnail');
+    const stock = document.querySelector('#stock');
+    const description = document.querySelector('#description');
+
     const producto = {
         title: title.value,
         price: price.value,
         code: code.value,
-        thumbnail: thumbnail.value
+        thumbnail: thumbnail.value,
+        stock: stock.value,
+        description: description.value
 
     }
     console.log(producto)
